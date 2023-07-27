@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wJ4HjdcDXaXDOvbRCSZUdZ4JB8J09i8v+JYYmdrysnU=",
+  "Hash": "8QlX3ygr+6GOYyqUb8WfkuYp5mGQQiA+EHW8WCT/h+A=",
   "Source": "DienLanh_FrontEnd",
   "BasePath": "_content/DienLanh_FrontEnd",
   "Mode": "Default",
@@ -680,23 +680,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
-      "SourceId": "DienLanh_FrontEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
-      "BasePath": "_content/DienLanh_FrontEnd",
-      "RelativePath": "lib/tempusdominus/js/moment.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\moment.min.js"
-    },
-    {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
@@ -712,6 +695,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "SourceId": "DienLanh_FrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_FrontEnd",
+      "RelativePath": "lib/tempusdominus/js/moment.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
@@ -1360,23 +1360,6 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
-      "SourceId": "DienLanh_FrontEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
-      "BasePath": "_content/DienLanh_FrontEnd",
-      "RelativePath": "scss/bootstrap/scss/_type.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_type.scss"
-    },
-    {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
@@ -1392,6 +1375,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "SourceId": "DienLanh_FrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_FrontEnd",
+      "RelativePath": "scss/bootstrap/scss/_type.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
@@ -1426,23 +1426,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_variables.scss"
-    },
-    {
-      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
-      "SourceId": "DienLanh_FrontEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
-      "BasePath": "_content/DienLanh_FrontEnd",
-      "RelativePath": "scss/bootstrap/scss/bootstrap.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
@@ -1496,6 +1479,23 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "SourceId": "DienLanh_FrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_FrontEnd",
+      "RelativePath": "scss/bootstrap/scss/bootstrap.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
@@ -1513,23 +1513,6 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
-      "SourceId": "DienLanh_FrontEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
-      "BasePath": "_content/DienLanh_FrontEnd",
-      "RelativePath": "scss/bootstrap/scss/forms/_form-control.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
-    },
-    {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
@@ -1545,6 +1528,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "SourceId": "DienLanh_FrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_FrontEnd",
+      "RelativePath": "scss/bootstrap/scss/forms/_form-control.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
