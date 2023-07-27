@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9tnJbfCVNQMp/ypRq1FbdvnpgFqbPQf6skXWvN+CX/Q=",
+  "Source": "WebAPI_JWT_NET6_Base",
+  "BasePath": "_content/WebAPI_JWT_NET6_Base",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

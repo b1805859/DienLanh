@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebAPI_JWT_NET6_Base.props" />
+</Project>
