@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ScreenWebAdmin\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base.csproj": {}
+    "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\WebAPI_JWT_NET6_Base.csproj": {}
   },
   "projects": {
-    "D:\\ScreenWebAdmin\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base.csproj": {
+    "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\WebAPI_JWT_NET6_Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ScreenWebAdmin\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base.csproj",
+        "projectUniqueName": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\WebAPI_JWT_NET6_Base.csproj",
         "projectName": "WebAPI_JWT_NET6_Base",
-        "projectPath": "D:\\ScreenWebAdmin\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base.csproj",
+        "projectPath": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\WebAPI_JWT_NET6_Base.csproj",
         "packagesPath": "C:\\Users\\IVS\\.nuget\\packages\\",
-        "outputPath": "D:\\ScreenWebAdmin\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base\\obj\\",
+        "outputPath": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_JWT_NET6_Base", "WebAPI_JWT_NET6_Base\WebAPI_JWT_NET6_Base.csproj", "{A2F88ECA-E91D-42DE-943D-438A7B36B13E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DienLanh_BackEnd", "DienLanh_BackEnd\DienLanh_BackEnd.csproj", "{96432FE7-693F-4FB6-8EAB-2ED9F0DEA8BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2F88ECA-E91D-42DE-943D-438A7B36B13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2F88ECA-E91D-42DE-943D-438A7B36B13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2F88ECA-E91D-42DE-943D-438A7B36B13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2F88ECA-E91D-42DE-943D-438A7B36B13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96432FE7-693F-4FB6-8EAB-2ED9F0DEA8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96432FE7-693F-4FB6-8EAB-2ED9F0DEA8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96432FE7-693F-4FB6-8EAB-2ED9F0DEA8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96432FE7-693F-4FB6-8EAB-2ED9F0DEA8BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

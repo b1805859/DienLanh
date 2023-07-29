@@ -26,7 +26,7 @@ namespace WebAPI_JWT_NET6_Base.Controllers
         {
             try
             {
-                IEnumerable<Employee> employees = _IEmployee.GetEmployeeDetails();
+                IEnumerable<Employee> employees = _IEmployee.GetEmployees();
 
                 return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = employees });
             }
@@ -40,7 +40,7 @@ namespace WebAPI_JWT_NET6_Base.Controllers
 
         // GET api/employee/5
         [HttpGet("{id}")]
-        public async Task<ActionResult> Get(int id)
+        public async Task<ActionResult> Get(string id)
         {
             try
             {
@@ -85,7 +85,7 @@ namespace WebAPI_JWT_NET6_Base.Controllers
 
         // PUT api/employee/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, Employee employee)
+        public async Task<ActionResult> Put(string id, Employee employee)
         {
             try
             {
@@ -106,7 +106,7 @@ namespace WebAPI_JWT_NET6_Base.Controllers
 
         // DELETE api/employee/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<ActionResult> Delete(string id)
         {
             try
             {
@@ -128,7 +128,7 @@ namespace WebAPI_JWT_NET6_Base.Controllers
             }
         }
 
-        private bool EmployeeExists(int id)
+        /*private bool EmployeeExists(string id)
         {
             try
             {
@@ -146,6 +146,6 @@ namespace WebAPI_JWT_NET6_Base.Controllers
                 return false;
             }
 
-        }
+        }*/
     }
 }

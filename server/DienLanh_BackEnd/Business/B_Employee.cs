@@ -13,7 +13,7 @@ namespace WebAPI_JWT_NET6_Base.Business
             _dbContext = dbContext;
         }
 
-        public List<Employee> GetEmployeeDetails()
+        public List<Employee> GetEmployees()
         {
             try
             {
@@ -21,24 +21,18 @@ namespace WebAPI_JWT_NET6_Base.Business
             }
             catch
             {
-                throw new NotImplementedException();
+                return new List<Employee>();
             }
         }
 
-        public Employee GetEmployeeDetails(int id)
+        public Employee GetEmployeeDetails(string id)
         {
             try
             {
                 Employee employee = _dbContext.Employees!.Find(id)!;
 
-                if (employee != null)
-                {
-                    return employee;
-                }
-                else
-                {
-                    return null;
-                }
+                return employee;
+
             }
             catch
             {
@@ -75,7 +69,7 @@ namespace WebAPI_JWT_NET6_Base.Business
             }
         }
 
-        public bool DeleteEmployee(int id)
+        public bool DeleteEmployee(string id)
         {
             bool result = false;
             try
@@ -97,7 +91,7 @@ namespace WebAPI_JWT_NET6_Base.Business
 
         }
 
-        public bool CheckEmployee(int id)
+        /*public bool CheckEmployee(string id)
         {
             try
             {
@@ -115,7 +109,7 @@ namespace WebAPI_JWT_NET6_Base.Business
                 return false;
             }
 
-        }
+        }*/
 
 
     }

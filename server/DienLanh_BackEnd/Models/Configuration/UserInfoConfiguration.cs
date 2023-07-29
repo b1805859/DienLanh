@@ -9,7 +9,7 @@ namespace WebAPI_JWT_NET6_Base.Models.Configuration
         {
             builder.HasNoKey();
             builder.ToTable("UserInfo");
-            builder.Property(e => e.UserId).HasColumnName("UserId");
+            builder.Property(e => e.UserId).HasMaxLength(10).IsUnicode(false).HasColumnName("UserId");
             builder.Property(e => e.DisplayName).HasMaxLength(60).IsUnicode(false);
             builder.Property(e => e.UserName).HasMaxLength(30).IsUnicode(false);
             builder.Property(e => e.Email).HasMaxLength(50).IsUnicode(false);

@@ -2,7 +2,7 @@
 {
     public class Employee
     {
-        public int EmployeeID { get; set; }
+        public string? EmployeeID { get; set; }
         public string? NationalIDNumber { get; set; }
         public string? EmployeeName { get; set; }
         public string? LoginID { get; set; }

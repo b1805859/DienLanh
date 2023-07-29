@@ -11,7 +11,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DatabaseContext>
     (options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddTransient<S_Employee, B_Employee>();
-
+builder.Services.AddScoped<S_Service, B_Service>();
+builder.Services.AddScoped<S_ServiceCategory, B_ServiceCategory>();
+builder.Services.AddScoped<S_Product, B_Product>();
+builder.Services.AddScoped<S_ProductCategory, B_ProductCategory>();
+builder.Services.AddScoped<S_Booking, B_Booking>();
 // Add services to the container.
 
 builder.Services.AddControllers();

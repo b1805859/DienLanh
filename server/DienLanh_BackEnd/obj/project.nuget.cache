@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RQL+lqOJwfRLPXmk1OVVs5mGFWxa/thmcLdO5km5b8NTBdS6TeJIu0dw6uUbB4f+AXzxYkvFdTJ+UValJ2IYsw==",
+  "dgSpecHash": "b82xT9qysr9vvva9QS85gyNNU7ouVNs/+h+vDMEf8AU8fKy45lEIM6ovgcvQZc0o69dvZQB2P5wVSNoKv4NR1Q==",
   "success": true,
-  "projectFilePath": "D:\\ScreenWebAdmin\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base\\WebAPI_JWT_NET6_Base.csproj",
+  "projectFilePath": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\DienLanh_BackEnd.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\IVS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.20\\microsoft.aspnetcore.authentication.jwtbearer.6.0.20.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -11,8 +12,10 @@
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.20\\microsoft.entityframeworkcore.6.0.20.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.20\\microsoft.entityframeworkcore.abstractions.6.0.20.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.20\\microsoft.entityframeworkcore.analyzers.6.0.20.nupkg.sha512",
+    "C:\\Users\\IVS\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.20\\microsoft.entityframeworkcore.design.6.0.20.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.20\\microsoft.entityframeworkcore.relational.6.0.20.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.20\\microsoft.entityframeworkcore.sqlserver.6.0.20.nupkg.sha512",
+    "C:\\Users\\IVS\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.20\\microsoft.entityframeworkcore.tools.6.0.20.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",

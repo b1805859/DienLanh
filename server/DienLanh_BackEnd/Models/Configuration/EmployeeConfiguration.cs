@@ -8,7 +8,7 @@ namespace WebAPI_JWT_NET6_Base.Models.Configuration
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
             builder.ToTable("Employee");
-            builder.Property(e => e.EmployeeID).HasColumnName("EmployeeID");
+            builder.Property(e => e.EmployeeID).HasMaxLength(10).IsUnicode(false).HasColumnName("EmployeeID");
             builder.Property(e => e.NationalIDNumber).HasMaxLength(15).IsUnicode(false);
             builder.Property(e => e.EmployeeName).HasMaxLength(100).IsUnicode(false);
             builder.Property(e => e.LoginID).HasMaxLength(256).IsUnicode(false);

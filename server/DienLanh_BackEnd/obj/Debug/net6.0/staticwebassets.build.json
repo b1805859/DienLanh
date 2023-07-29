@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "9tnJbfCVNQMp/ypRq1FbdvnpgFqbPQf6skXWvN+CX/Q=",
-  "Source": "WebAPI_JWT_NET6_Base",
-  "BasePath": "_content/WebAPI_JWT_NET6_Base",
+  "Hash": "5qT/XBe7Qb1Ay2VhkiSxsmfbEiZDAHfg0dZ6FfgPpsk=",
+  "Source": "DienLanh_BackEnd",
+  "BasePath": "_content/DienLanh_BackEnd",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

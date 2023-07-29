@@ -55,7 +55,7 @@ namespace WebAPI_JWT_NET6_Base.Controllers
                 }
                 else
                 {
-                    return StatusCode(StatusCodes.Status500InternalServerError, new { ResultCode = C_Message.ERR00007, Message = C_Message.getMessageByID(C_Message.ERR00007) });
+                    return StatusCode(StatusCodes.Status404NotFound, new { ResultCode = C_Message.INF00003, Message = C_Message.getMessageByID(C_Message.INF00003) });
                 }
             }
             else
