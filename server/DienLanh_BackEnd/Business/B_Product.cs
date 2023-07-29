@@ -23,6 +23,12 @@ namespace WebAPI_JWT_NET6_Base.Business
                 product.CreatedDate = DateTime.Now;
                 product.UpdatedDate = DateTime.Now;
 
+
+                while (_dbContext.Products!.Any(productDB => productDB.ProductID == product.ProductID))
+                {
+                    product.ProductID = C_Function.randomID();
+                }
+
                 _dbContext.Products!.Add(product);
                 _dbContext.SaveChanges();
                 return true;

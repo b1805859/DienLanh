@@ -1,8 +1,7 @@
-﻿using JLPT_API.Common;
+﻿using DienLanh_BackEnd.Models;
+using JLPT_API.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using WebAPI_JWT_NET6_Base.Models;
 using WebAPI_JWT_NET6_Base.Services;
 
 namespace WebAPI_JWT_NET6_Base.Controllers
@@ -10,25 +9,24 @@ namespace WebAPI_JWT_NET6_Base.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeeController : ControllerBase
+    public class BlogController : ControllerBase
     {
-        private readonly S_Employee _IEmployee;
+        private readonly S_Blog _IBlog;
 
-        public EmployeeController(S_Employee IEmployee)
+        public BlogController(S_Blog IBlog)
         {
-            _IEmployee = IEmployee;
+            _IBlog = IBlog;
         }
 
 
-        // GET: api/employee>
         [HttpGet]
         public async Task<ActionResult> Get()
         {
             try
             {
-                IEnumerable<Employee> employees = _IEmployee.GetEmployees();
+                IEnumerable<Blog> blogs = await Task.FromResult(_IBlog.GetBlogs());
 
-                return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = employees });
+                return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = blogs });
             }
             catch
             {
@@ -38,17 +36,16 @@ namespace WebAPI_JWT_NET6_Base.Controllers
 
         }
 
-        // GET api/employee/5
         [HttpGet("{id}")]
         public async Task<ActionResult> Get(string id)
         {
             try
             {
-                var employees = await Task.FromResult(_IEmployee.GetEmployeeDetails(id));
+                var blogs = await Task.FromResult(_IBlog.GetBlogDetails(id));
 
-                if (employees != null)
+                if (blogs != null)
                 {
-                    return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = employees });
+                    return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = blogs });
                 }
                 else
                 {
@@ -61,16 +58,16 @@ namespace WebAPI_JWT_NET6_Base.Controllers
             }
         }
 
-        // POST api/employee
         [HttpPost]
-        public ActionResult Post(Employee employee)
+        public async Task<ActionResult> Post(Blog blog)
         {
             try
             {
-                bool result = _IEmployee.AddEmployee(employee);
+                bool result = await Task.FromResult(_IBlog.AddBlog(blog));
+
                 if (result)
                 {
-                    return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = employee });
+                    return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = blog });
                 }
                 else
                 {
@@ -83,36 +80,34 @@ namespace WebAPI_JWT_NET6_Base.Controllers
             }
         }
 
-        // PUT api/employee/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(string id, Employee employee)
+        public async Task<ActionResult> Put(string id, Blog blog)
         {
             try
             {
-                if (id != employee.EmployeeID)
+                if (id != blog.BlogID)
                 {
-                    return StatusCode(StatusCodes.Status500InternalServerError, new { ResultCode = C_Message.ERR00007, Message = C_Message.getMessageByID(C_Message.ERR00007) });
+                    return StatusCode(StatusCodes.Status404NotFound, new { ResultCode = C_Message.INF00003, Message = C_Message.getMessageByID(C_Message.INF00003) });
                 }
 
-                var result = _IEmployee.UpdateEmployee(employee);
+                var result = await Task.FromResult(_IBlog.UpdateBlog(blog));
 
                 return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001) });
             }
-            catch (DbUpdateConcurrencyException)
+            catch
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new { ResultCode = C_Message.ERR00007, Message = C_Message.getMessageByID(C_Message.ERR00007) });
             }
         }
 
-        // DELETE api/employee/5
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(string id)
         {
             try
             {
-                var employee = _IEmployee.DeleteEmployee(id);
+                bool result = await Task.FromResult(_IBlog.DeleteBlog(id));
 
-                if (employee)
+                if (result)
                 {
                     return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001) });
                 }
@@ -127,25 +122,5 @@ namespace WebAPI_JWT_NET6_Base.Controllers
 
             }
         }
-
-        /*private bool EmployeeExists(string id)
-        {
-            try
-            {
-                if (_IEmployee.CheckEmployee(id))
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-            catch
-            {
-                return false;
-            }
-
-        }*/
     }
 }

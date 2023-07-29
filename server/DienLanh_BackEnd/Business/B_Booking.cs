@@ -23,6 +23,11 @@ namespace WebAPI_JWT_NET6_Base.Business
                 booking.CreatedDate = DateTime.Now;
                 booking.UpdatedDate = DateTime.Now;
 
+                while (_dbContext.Bookings!.Any(bookingDB => bookingDB.BookingID == booking.BookingID))
+                {
+                    booking.BookingID = C_Function.randomID();
+                }
+
                 _dbContext.Bookings!.Add(booking);
                 _dbContext.SaveChanges();
                 return true;

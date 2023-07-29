@@ -6,7 +6,7 @@
         public string? Title { get; set; }
         public string? Description { get; set; }
         public string? Price { get; set; }
-        public ServiceCategory? ServiceCategory { get; set; }
+        public Blog? ServiceCategory { get; set; }
         public DateTime? CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
     }

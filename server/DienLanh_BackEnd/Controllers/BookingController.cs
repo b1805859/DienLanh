@@ -1,22 +1,19 @@
 ﻿using DienLanh_BackEnd.Models;
 using JLPT_API.Common;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using WebAPI_JWT_NET6_Base.Services;
 
-namespace WebAPI_JWT_NET6_Base.Controllers
+namespace DienLanh_BackEnd.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class ServiceCategoryController : ControllerBase
+    public class BookingController : ControllerBase
     {
-        private readonly S_ServiceCategory _IServiceCategory;
+        private readonly S_Booking _IBooking;
 
-        public ServiceCategoryController(S_ServiceCategory IServiceCategory)
+        public BookingController(S_Booking IBooking)
         {
-            _IServiceCategory = IServiceCategory;
+            _IBooking = IBooking;
         }
 
 
@@ -25,9 +22,9 @@ namespace WebAPI_JWT_NET6_Base.Controllers
         {
             try
             {
-                IEnumerable<ServiceCategory> serviceCategorys = _IServiceCategory.GetServiceCategorys();
+                IEnumerable<Booking> bookings = await Task.FromResult(_IBooking.GetBookings());
 
-                return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = serviceCategorys });
+                return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = bookings });
             }
             catch
             {
@@ -42,11 +39,11 @@ namespace WebAPI_JWT_NET6_Base.Controllers
         {
             try
             {
-                var serviceCategorys = await Task.FromResult(_IServiceCategory.GetServiceCategoryDetails(id));
+                var bookings = await Task.FromResult(_IBooking.GetBookingDetails(id));
 
-                if (serviceCategorys != null)
+                if (bookings != null)
                 {
-                    return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = serviceCategorys });
+                    return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = bookings });
                 }
                 else
                 {
@@ -60,15 +57,15 @@ namespace WebAPI_JWT_NET6_Base.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post(ServiceCategory serviceCategory)
+        public async Task<ActionResult> Post(Booking booking)
         {
             try
             {
-                bool result = _IServiceCategory.AddServiceCategory(serviceCategory);
+                bool result = await Task.FromResult(_IBooking.AddBooking(booking));
 
                 if (result)
                 {
-                    return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = serviceCategory });
+                    return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001), Data = booking });
                 }
                 else
                 {
@@ -82,20 +79,20 @@ namespace WebAPI_JWT_NET6_Base.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(string id, ServiceCategory serviceCategory)
+        public async Task<ActionResult> Put(string id, Booking booking)
         {
             try
             {
-                if (id != serviceCategory.ServiceCategoryID)
+                if (id != booking.BookingID)
                 {
-                    return StatusCode(StatusCodes.Status500InternalServerError, new { ResultCode = C_Message.ERR00007, Message = C_Message.getMessageByID(C_Message.ERR00007) });
+                    return StatusCode(StatusCodes.Status404NotFound, new { ResultCode = C_Message.INF00003, Message = C_Message.getMessageByID(C_Message.INF00003) });
                 }
 
-                var result = _IServiceCategory.UpdateServiceCategory(serviceCategory);
+                var result = await Task.FromResult(_IBooking.UpdateBooking(booking));
 
                 return StatusCode(StatusCodes.Status200OK, new { ResultCode = C_Message.INF00001, Message = C_Message.getMessageByID(C_Message.INF00001) });
             }
-            catch (DbUpdateConcurrencyException)
+            catch
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new { ResultCode = C_Message.ERR00007, Message = C_Message.getMessageByID(C_Message.ERR00007) });
             }
@@ -106,7 +103,7 @@ namespace WebAPI_JWT_NET6_Base.Controllers
         {
             try
             {
-                bool result = _IServiceCategory.DeleteServiceCategory(id);
+                bool result = await Task.FromResult(_IBooking.DeleteBooking(id));
 
                 if (result)
                 {

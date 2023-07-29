@@ -6,24 +6,28 @@ using WebAPI_JWT_NET6_Base.Services;
 
 namespace WebAPI_JWT_NET6_Base.Business
 {
-    public class B_ServiceCategory : S_ServiceCategory
+    public class B_Blog : S_Blog
     {
         readonly DatabaseContext _dbContext = new();
 
-        public B_ServiceCategory(DatabaseContext dbContext)
+        public B_Blog(DatabaseContext dbContext)
         {
             _dbContext = dbContext;
         }
 
-        public bool AddServiceCategory(ServiceCategory serviceCategory)
+        public bool AddBlog(Blog blog)
         {
             try
             {
-                serviceCategory.ServiceCategoryID = C_Function.randomID();
-                serviceCategory.CreatedDate = DateTime.Now;
-                serviceCategory.UpdatedDate = DateTime.Now;
+                blog.BlogID = C_Function.randomID();
+                blog.CreatedDate = DateTime.Now;
+                blog.UpdatedDate = DateTime.Now;
 
-                _dbContext.ServiceCategorys!.Add(serviceCategory);
+                while (_dbContext.Blogs!.Any(blogDB => blogDB.BlogID == blog.BlogID))
+                {
+                    blog.BlogID = C_Function.randomID();
+                }
+                _dbContext.Blogs!.Add(blog);
                 _dbContext.SaveChanges();
                 return true;
             }
@@ -34,16 +38,16 @@ namespace WebAPI_JWT_NET6_Base.Business
         }
 
 
-        public bool DeleteServiceCategory(string id)
+        public bool DeleteBlog(string id)
         {
             bool result = false;
             try
             {
-                ServiceCategory serviceCategorys = _dbContext.ServiceCategorys!.Find(id)!;
+                Blog blogs = _dbContext.Blogs!.Find(id)!;
 
-                if (serviceCategorys != null)
+                if (blogs != null)
                 {
-                    _dbContext.ServiceCategorys.Remove(serviceCategorys);
+                    _dbContext.Blogs.Remove(blogs);
                     _dbContext.SaveChanges();
                     result = true;
                 }
@@ -55,13 +59,13 @@ namespace WebAPI_JWT_NET6_Base.Business
             }
         }
 
-        public ServiceCategory GetServiceCategoryDetails(string id)
+        public Blog GetBlogDetails(string id)
         {
             try
             {
-                ServiceCategory serviceCategory = _dbContext.ServiceCategorys!.Find(id)!;
+                Blog blog = _dbContext.Blogs!.Find(id)!;
 
-                return serviceCategory;
+                return blog;
 
             }
             catch
@@ -70,25 +74,25 @@ namespace WebAPI_JWT_NET6_Base.Business
             }
         }
 
-        public List<ServiceCategory> GetServiceCategorys()
+        public List<Blog> GetBlogs()
         {
             try
             {
-                return _dbContext.ServiceCategorys!.ToList();
+                return _dbContext.Blogs!.ToList();
             }
             catch
             {
-                return new List<ServiceCategory>();
+                return new List<Blog>();
             }
         }
 
-        public bool UpdateServiceCategory(ServiceCategory serviceCategory)
+        public bool UpdateBlog(Blog blog)
         {
             try
             {
-                serviceCategory.UpdatedDate = DateTime.Now;
+                blog.UpdatedDate = DateTime.Now;
 
-                _dbContext.Entry(serviceCategory).State = EntityState.Modified;
+                _dbContext.Entry(blog).State = EntityState.Modified;
                 _dbContext.SaveChanges();
 
                 return true;

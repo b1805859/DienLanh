@@ -23,6 +23,11 @@ namespace WebAPI_JWT_NET6_Base.Business
                 service.CreatedDate = DateTime.Now;
                 service.UpdatedDate = DateTime.Now;
 
+                while (_dbContext.Services!.Any(serviceDB => serviceDB.ServiceID == service.ServiceID))
+                {
+                    service.ServiceID = C_Function.randomID();
+                }
+
                 _dbContext.Services!.Add(service);
                 _dbContext.SaveChanges();
                 return true;

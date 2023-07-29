@@ -23,6 +23,11 @@ namespace WebAPI_JWT_NET6_Base.Business
                 productCategory.CreatedDate = DateTime.Now;
                 productCategory.UpdatedDate = DateTime.Now;
 
+                while (_dbContext.ProductCategorys!.Any(productCategoryDB => productCategoryDB.ProductCategoryID == productCategory.ProductCategoryID))
+                {
+                    productCategory.ProductCategoryID = C_Function.randomID();
+                }
+
                 _dbContext.ProductCategorys!.Add(productCategory);
                 _dbContext.SaveChanges();
                 return true;

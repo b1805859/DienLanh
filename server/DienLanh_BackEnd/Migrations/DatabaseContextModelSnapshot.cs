@@ -22,6 +22,44 @@ namespace DienLanh_BackEnd.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("DienLanh_BackEnd.Models.Blog", b =>
+                {
+                    b.Property<string>("BlogID")
+                        .HasMaxLength(10)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(10)")
+                        .HasColumnName("BlogID");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .IsUnicode(false)
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(5000)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Source")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .IsUnicode(false)
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("BlogID");
+
+                    b.ToTable("Blog", (string)null);
+                });
+
             modelBuilder.Entity("DienLanh_BackEnd.Models.Booking", b =>
                 {
                     b.Property<string>("BookingID")
@@ -32,8 +70,8 @@ namespace DienLanh_BackEnd.Migrations
 
                     b.Property<string>("Address")
                         .HasMaxLength(255)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(255)");
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<DateTime?>("CreatedDate")
                         .IsUnicode(false)
@@ -57,8 +95,8 @@ namespace DienLanh_BackEnd.Migrations
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(100)");
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("BookingID");
 
@@ -78,14 +116,14 @@ namespace DienLanh_BackEnd.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(255)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(1000)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Price")
-                        .HasMaxLength(255)
+                        .HasMaxLength(15)
                         .IsUnicode(false)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(15)");
 
                     b.Property<string>("ProductCategoryID")
                         .HasColumnType("varchar(10)");
@@ -93,8 +131,8 @@ namespace DienLanh_BackEnd.Migrations
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(255)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(255)");
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .IsUnicode(false)
@@ -122,8 +160,8 @@ namespace DienLanh_BackEnd.Migrations
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(255)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(255)");
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .IsUnicode(false)
@@ -150,23 +188,23 @@ namespace DienLanh_BackEnd.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(255)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(5000)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Price")
                         .HasMaxLength(255)
                         .IsUnicode(false)
                         .HasColumnType("varchar(255)");
 
-                    b.Property<string>("ServiceCategoryID")
+                    b.Property<string>("ServiceCategoryBlogID")
                         .HasColumnType("varchar(10)");
 
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(255)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(255)");
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .IsUnicode(false)
@@ -176,116 +214,92 @@ namespace DienLanh_BackEnd.Migrations
 
                     b.HasIndex("BookingID");
 
-                    b.HasIndex("ServiceCategoryID");
+                    b.HasIndex("ServiceCategoryBlogID");
 
                     b.ToTable("Service", (string)null);
-                });
 
-            modelBuilder.Entity("DienLanh_BackEnd.Models.ServiceCategory", b =>
-                {
-                    b.Property<string>("ServiceCategoryID")
-                        .HasMaxLength(10)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(10)")
-                        .HasColumnName("ServiceCategoryID");
-
-                    b.Property<DateTime?>("CreatedDate")
-                        .IsUnicode(false)
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(255)");
-
-                    b.Property<DateTime?>("UpdatedDate")
-                        .IsUnicode(false)
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("ServiceCategoryID");
-
-                    b.ToTable("ServiceCategory", (string)null);
-                });
-
-            modelBuilder.Entity("WebAPI_JWT_NET6_Base.Models.Employee", b =>
-                {
-                    b.Property<string>("EmployeeID")
-                        .HasMaxLength(10)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(10)")
-                        .HasColumnName("EmployeeID");
-
-                    b.Property<DateTime>("BirthDate")
-                        .IsUnicode(false)
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("EmployeeName")
-                        .HasMaxLength(100)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(100)");
-
-                    b.Property<string>("Gender")
-                        .HasMaxLength(1)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(1)");
-
-                    b.Property<DateTime>("HireDate")
-                        .IsUnicode(false)
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("JobTitle")
-                        .HasMaxLength(50)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(50)");
-
-                    b.Property<string>("LoginID")
-                        .HasMaxLength(256)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(256)");
-
-                    b.Property<string>("MaritalStatus")
-                        .HasMaxLength(1)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(1)");
-
-                    b.Property<DateTime>("ModifiedDate")
-                        .IsUnicode(false)
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("NationalIDNumber")
-                        .HasMaxLength(15)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(15)");
-
-                    b.Property<Guid?>("RowGuid")
-                        .HasMaxLength(50)
-                        .IsUnicode(false)
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<short>("SickLeaveHours")
-                        .IsUnicode(false)
-                        .HasColumnType("smallint");
-
-                    b.Property<short>("VacationHours")
-                        .IsUnicode(false)
-                        .HasColumnType("smallint");
-
-                    b.HasKey("EmployeeID");
-
-                    b.ToTable("Employee", (string)null);
+                    b.HasData(
+                        new
+                        {
+                            ServiceID = "3525947326",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(61),
+                            Title = "Tháo, lắp máy lạnh",
+                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(67)
+                        },
+                        new
+                        {
+                            ServiceID = "2523465109",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(75),
+                            Title = "Tháo, lắp máy giặt",
+                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(76)
+                        },
+                        new
+                        {
+                            ServiceID = "4955322093",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(98),
+                            Title = "Tháo, lắp máy nước nóng",
+                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(99)
+                        },
+                        new
+                        {
+                            ServiceID = "6863705860",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(105),
+                            Title = "Tháo lắp vận chuyển tủ lạnh",
+                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(106)
+                        },
+                        new
+                        {
+                            ServiceID = "5018816391",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(112),
+                            Title = "Vệ sinh máy lạnh",
+                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(112)
+                        },
+                        new
+                        {
+                            ServiceID = "3041819629",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(118),
+                            Title = "Vệ sinh máy giặt",
+                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(119)
+                        },
+                        new
+                        {
+                            ServiceID = "7396033498",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(128),
+                            Title = "Sửa chữa máy lạnh",
+                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(129)
+                        },
+                        new
+                        {
+                            ServiceID = "1637114746",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(134),
+                            Title = "Sửa chữa máy giặt",
+                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(134)
+                        },
+                        new
+                        {
+                            ServiceID = "3976360235",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(140),
+                            Title = "Sửa chữa tủ lạnh",
+                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(141)
+                        });
                 });
 
             modelBuilder.Entity("WebAPI_JWT_NET6_Base.Models.UserInfo", b =>
                 {
+                    b.Property<string>("UserId")
+                        .HasMaxLength(10)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(10)")
+                        .HasColumnName("UserId");
+
                     b.Property<DateTime?>("CreatedDate")
                         .IsUnicode(false)
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DisplayName")
                         .HasMaxLength(60)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(60)");
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<string>("Email")
                         .HasMaxLength(50)
@@ -297,18 +311,25 @@ namespace DienLanh_BackEnd.Migrations
                         .IsUnicode(false)
                         .HasColumnType("varchar(20)");
 
-                    b.Property<string>("UserId")
-                        .HasMaxLength(10)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(10)")
-                        .HasColumnName("UserId");
-
                     b.Property<string>("UserName")
                         .HasMaxLength(30)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(30)");
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("UserId");
 
                     b.ToTable("UserInfo", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "6907866626",
+                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 250, DateTimeKind.Local).AddTicks(5189),
+                            DisplayName = "Lê Văn Hiếu",
+                            Email = "admin@gmail.com",
+                            Password = "admin",
+                            UserName = "admin"
+                        });
                 });
 
             modelBuilder.Entity("DienLanh_BackEnd.Models.Product", b =>
@@ -326,9 +347,9 @@ namespace DienLanh_BackEnd.Migrations
                         .WithMany("Service")
                         .HasForeignKey("BookingID");
 
-                    b.HasOne("DienLanh_BackEnd.Models.ServiceCategory", "ServiceCategory")
-                        .WithMany("Services")
-                        .HasForeignKey("ServiceCategoryID");
+                    b.HasOne("DienLanh_BackEnd.Models.Blog", "ServiceCategory")
+                        .WithMany()
+                        .HasForeignKey("ServiceCategoryBlogID");
 
                     b.Navigation("ServiceCategory");
                 });
@@ -341,11 +362,6 @@ namespace DienLanh_BackEnd.Migrations
             modelBuilder.Entity("DienLanh_BackEnd.Models.ProductCategory", b =>
                 {
                     b.Navigation("Products");
-                });
-
-            modelBuilder.Entity("DienLanh_BackEnd.Models.ServiceCategory", b =>
-                {
-                    b.Navigation("Services");
                 });
 #pragma warning restore 612, 618
         }
