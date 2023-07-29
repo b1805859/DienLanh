@@ -1,5 +1,6 @@
 ﻿using DienLanh_BackEnd.Models;
 using JLPT_API.Common;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI_JWT_NET6_Base.Services;
 
@@ -56,6 +57,8 @@ namespace DienLanh_BackEnd.Controllers
             }
         }
 
+
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult> Post(Service service)
         {
@@ -78,6 +81,8 @@ namespace DienLanh_BackEnd.Controllers
             }
         }
 
+
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(string id, Service service)
         {
@@ -98,6 +103,7 @@ namespace DienLanh_BackEnd.Controllers
             }
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(string id)
         {

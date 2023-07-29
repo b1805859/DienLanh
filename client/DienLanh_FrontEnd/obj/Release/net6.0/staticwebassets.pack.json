@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
     },
     {
+      "Id": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\HandlePage\\HomeHandle.js",
+      "PackagePath": "staticwebassets\\js\\HandlePage\\HomeHandle.js"
+    },
+    {
       "Id": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },

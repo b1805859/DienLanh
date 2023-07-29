@@ -1,9 +1,10 @@
-/********** Template CSS **********/
+﻿/********** Template CSS **********/
 :root {
     --primary: #1E60AA;
     --secondary: #FF4917;
     --light: #EDF1FC;
     --dark: #17224D;
+    --breadcrumb: #0000005c;
 }
 
 .fw-medium {
@@ -74,12 +75,12 @@
 /*** Navbar ***/
 .top-bar {
     height: 75px;
-    padding: 0 4rem;
+    padding: 0 9.8rem;
 }
 
 .nav-bar {
     position: relative;
-    padding: 0 4.75rem;
+    padding: 0 9.8rem;
     transition: .5s;
     z-index: 9999;
 }
@@ -240,7 +241,7 @@
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    color: var(--light);
+    color: var(--breadcrumb);
 }
 
 
@@ -585,3 +586,4 @@
 .footer .copyright a {
     color: var(--light);
 }
+

@@ -1,4 +1,5 @@
-﻿using DienLanh_FrontEnd.Models;
+﻿using DienLanh_FrontEnd.Common;
+using DienLanh_FrontEnd.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -15,13 +16,13 @@ namespace DienLanh_FrontEnd.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.serverAPI = ApiURL.serverAPI;
+            ViewBag.Breadcrumb = new List<Breadcrumb> {
+                        new Breadcrumb{ title="Trang chủ",link="/Home/Index", active= true },
+                    };
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

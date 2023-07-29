@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LTPMympsjv5ns3zwJLRTm7JsGMCnQtxjVyrcqGbrKIc=",
+  "Hash": "uFLEt4oiwobJGM0W98tbTXKjGIbDgWK2ivA+yAheQrM=",
   "Source": "DienLanh_FrontEnd",
   "BasePath": "_content/DienLanh_FrontEnd",
   "Mode": "Default",
@@ -355,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\testimonial-4.jpg"
+    },
+    {
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\HandlePage\\HomeHandle.js",
+      "SourceId": "DienLanh_FrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_FrontEnd",
+      "RelativePath": "js/HandlePage/HomeHandle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\HandlePage\\HomeHandle.js"
     },
     {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\main.js",

@@ -223,4 +223,3 @@ D:\DienLanh\client\DienLanh_FrontEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\Sy
 D:\DienLanh\client\DienLanh_FrontEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\DienLanh\client\DienLanh_FrontEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\DienLanh\client\DienLanh_FrontEnd\obj\Debug\net6.0\DienLanh_FrontEnd.csproj.CopyComplete
-D:\DienLanh\client\DienLanh_FrontEnd\obj\Debug\net6.0\DienLanh_FrontEnd.sourcelink.json
