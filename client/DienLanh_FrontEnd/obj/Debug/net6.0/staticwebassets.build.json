@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Aoer0gYhfPHdSuoFSOr516mpKo8rahzGsKc3mswG4K0=",
+  "Hash": "w4bFxLMSrrHNOkBxXCtnyBZGeNpmO0vf4NVFqGMbI6Y=",
   "Source": "DienLanh_FrontEnd",
   "BasePath": "_content/DienLanh_FrontEnd",
   "Mode": "Default",
@@ -372,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\HandlePage\\HomeHandle.js"
+    },
+    {
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\HandlePage\\ServiceHandle.js",
+      "SourceId": "DienLanh_FrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_FrontEnd",
+      "RelativePath": "js/HandlePage/ServiceHandle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\HandlePage\\ServiceHandle.js"
     },
     {
       "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\main.js",

@@ -6,72 +6,27 @@
 
 
 <!-- Booking Start -->
-<div class="container-fluid px-0" style="margin: 6rem 0;">
-    <div class="video wow fadeInUp" data-wow-delay="0.1s">
-        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-            <span></span>
-        </button>
-
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                                    allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <h1 class="text-white mb-4">Emergency Plumbing Service</h1>
-        <h3 class="text-white mb-0">24 Hours 7 Days a Week</h3>
-    </div>
-    <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="bg-light text-center p-5">
-                    <h1 class="mb-4">Book For A Service</h1>
+<div class="container p-5">
+    <div class="container  wow fadeInUp" data-wow-delay="0.1s" >
+           <div class="bg-light text-center p-5">
+                    <h1 class="mb-4">Vui lòng nhập thông tin</h1>
                     <form>
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                            <div class="form-group">
+                                <label for="inputEmail4">Họ tên</label>
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="">
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                            <div class="form-group my-4">
+                                <label for="inputAddress">Số điện thoại</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="">
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <select class="form-select border-0" style="height: 55px;">
-                                    <option selected>Select A Service</option>
-                                    <option value="1">Service 1</option>
-                                    <option value="2">Service 2</option>
-                                    <option value="3">Service 3</option>
-                                </select>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="date" id="date1" data-target-input="nearest">
-                                    <input type="text"
-                                           class="form-control border-0 datetimepicker-input"
-                                           placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                            <button class="btn btn-danger d-flex align-items-center justify-content-center" style="gap: 5px; float: right">
+                                <div class="">
+                                    <svg style="fill: #ffffff;" height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M511.6 36.86l-64 415.1c-1.5 9.734-7.375 18.22-15.97 23.05c-4.844 2.719-10.27 4.097-15.68 4.097c-4.188 0-8.319-.8154-12.29-2.472l-122.6-51.1l-50.86 76.29C226.3 508.5 219.8 512 212.8 512C201.3 512 192 502.7 192 491.2v-96.18c0-7.115 2.372-14.03 6.742-19.64L416 96l-293.7 264.3L19.69 317.5C8.438 312.8 .8125 302.2 .0625 289.1s5.469-23.72 16.06-29.77l448-255.1c10.69-6.109 23.88-5.547 34 1.406S513.5 24.72 511.6 36.86z"></path></svg>
                                 </div>
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0" placeholder="Special Request"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
-                            </div>
-                        </div>
+                                Gửi
+                            </button>
                     </form>
                 </div>
-            </div>
-        </div>
     </div>
 </div>
 <!-- Booking End -->

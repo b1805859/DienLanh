@@ -81,6 +81,10 @@
       "PackagePath": "staticwebassets\\js\\HandlePage\\HomeHandle.js"
     },
     {
+      "Id": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\HandlePage\\ServiceHandle.js",
+      "PackagePath": "staticwebassets\\js\\HandlePage\\ServiceHandle.js"
+    },
+    {
       "Id": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },

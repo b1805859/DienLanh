@@ -17,9 +17,6 @@ namespace DienLanh_FrontEnd.Controllers
         public IActionResult Index()
         {
             ViewBag.serverAPI = ApiURL.serverAPI;
-            ViewBag.Breadcrumb = new List<Breadcrumb> {
-                        new Breadcrumb{ title="Trang chủ",link="/Home/Index", active= true },
-                    };
             return View();
         }
 

@@ -42,21 +42,19 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-light d-none d-lg-block">
+    <div class="container-fluid d-none d-lg-block" style="background-color: #082680">
         <div class="row align-items-center top-bar">
             <div class="col-lg-3 col-md-12 text-center text-lg-start">
-                <a href="" class="navbar-brand m-0 p-0">
-                    <h1 class="text-primary m-0">MINH NHẬT</h1>
-                </a>
+
             </div>
             <div class="col-lg-9 col-md-12 text-end pr-0" >
                 <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
-                    <p class="m-0">470Q, P. Thường Thạnh, Q. Cái Răng, TP. Cần Thơ</p>
+                    <i class="fa fa-map-marker-alt text-white me-2"></i>
+                    <p class="text-white m-0">470Q, P. Thường Thạnh, Q. Cái Răng, TP. Cần Thơ</p>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center ml-4">
-                    <i class="far fa-envelope-open text-primary me-2"></i>
-                    <p class="m-0">lehieuse@gmail.com</p>
+                    <i class="far fa-envelope-open text-white me-2"></i>
+                    <p class="text-white m-0">lehieuse@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -64,67 +62,39 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <div class="container-fluid nav-bar bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+    <div class="container-fluid nav-bar" style="background-color: #082680">
+        <nav class="navbar navbar-expand-lg navbar-light p-3 py-lg-0 px-lg-4" style="background-color: #082680">
             <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
-                <h1 class="text-primary m-0">Plumberz</h1>
+                <h1  class="text-white m-0">Minh Nhật</h1>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
+            <button class="navbar-toggler bg-transparent border-0 collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false">
+                <span  class="fa fa-bars"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav me-auto">
-                    <a href="/Home/" class="nav-item nav-link @( ViewData["Title"] == "Home" ? "active" : "")">Trang chủ</a>
-                    <a href="/Service/" class="nav-item nav-link @( ViewData["Title"] == "Service" ? "active" : "")">Dịch vụ</a>
-                    <a href="/About/" class="nav-item nav-link @( ViewData["Title"] == "About" ? "active" : "")">Giới thiệu</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle @( ViewData["Title"] == "Booking" ? "active" : "")"  data-bs-toggle="dropdown">Trang</a>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <div class="d-none d-lg-block">
+                    <h3 class="text-white">Minh Nhật</h3>
+                </div>
+                <div  class="navbar-nav ms-auto">
+                    <a href="/Home/" class="text-white nav-item nav-link @( ViewData["Title"] == "Home" ? "active" : "")">Trang chủ</a>
+                    <a href="/About/" class="text-white nav-item nav-link @( ViewData["Title"] == "About" ? "active" : "")">Giới thiệu</a>
+                    <a href="/Service/" class="text-white nav-item nav-link @( ViewData["Title"] == "Service" ? "active" : "")">Dịch vụ</a>
+                    <a href="/Booking/" class="text-white nav-item nav-link @( ViewData["Title"] == "Booking" ? "active" : "")">Đặt lịch</a>
+                    <a href="/Blog/" class="text-white nav-item nav-link @( ViewData["Title"] == "Blog" ? "active" : "")">Blog</a>
+@*                    <div class="text-white nav-item dropdown">
+                        <a href="#" class="text-white nav-link dropdown-toggle @( ViewData["Title"] == "Booking" ? "active" : "")" data-bs-toggle="dropdown">Trang</a>
                         <div class="dropdown-menu fade-up m-0">
                             <a href="/Booking/" class="dropdown-item">Đặt lịch</a>
                             <a href="team.html" class="dropdown-item">Technicians</a>
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                             <a href="404.html" class="dropdown-item">404 Page</a>
                         </div>
-                    </div>
-                    <a href="/Contact/" class="nav-item nav-link @( ViewData["Title"] == "Contact" ? "active" : "")">Liên hệ</a>
-                </div>
-                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
-                        <i class="fa fa-phone-alt text-primary"></i>
-                    </div>
-                    <div class="ms-3">
-                        <p class="mb-1 text-white">Emergency 24/7</p>
-                        <h3 class="m-0 text-secondary">+0336287471</h3>
-                    </div>
+                    </div>*@
+                    <a href="/Contact/" class="text-white nav-item nav-link @( ViewData["Title"] == "Contact" ? "active" : "")">Liên hệ</a>
                 </div>
             </div>
         </nav>
     </div>
     <!-- Navbar End -->
-
-
-    <!-- Page Header Start -->
-    <div class="container px-5">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb p-2">
-                @{
-
-                    foreach (var breadcrumd in ViewBag.Breadcrumb)
-                    {
-                        if (breadcrumd.active == true)
-                        {
-                            <li class="breadcrumb-item active" aria-current="page"><a href="@breadcrumd.link">@breadcrumd.title</a></li>
-                        }
-                        else
-                        {
-                            <li class="breadcrumb-item" aria-current="page">@breadcrumd.title</li>
-                        }
-                    }
-                }
-            </ol>
-        </nav>
-    </div>
-    <!-- Page Header End -->
 
 
     <!-- Contact Start -->
