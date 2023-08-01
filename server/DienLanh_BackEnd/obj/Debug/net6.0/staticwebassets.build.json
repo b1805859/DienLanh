@@ -1,11 +1,71 @@
 {
   "Version": 1,
-  "Hash": "5qT/XBe7Qb1Ay2VhkiSxsmfbEiZDAHfg0dZ6FfgPpsk=",
+  "Hash": "MUAYM1+QksXNZYZEn6di/0T7kZcjBnk5zkrSO5htQjA=",
   "Source": "DienLanh_BackEnd",
   "BasePath": "_content/DienLanh_BackEnd",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "DienLanh_BackEnd\\wwwroot",
+      "Source": "DienLanh_BackEnd",
+      "ContentRoot": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_BackEnd",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\img\\imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg",
+      "SourceId": "DienLanh_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_BackEnd",
+      "RelativePath": "img/imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg"
+    },
+    {
+      "Identity": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\img\\LEGO_logo.svg.png",
+      "SourceId": "DienLanh_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_BackEnd",
+      "RelativePath": "img/LEGO_logo.svg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\LEGO_logo.svg.png"
+    },
+    {
+      "Identity": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\img\\unnamed.png",
+      "SourceId": "DienLanh_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_BackEnd",
+      "RelativePath": "img/unnamed.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\unnamed.png"
+    }
+  ]
 }

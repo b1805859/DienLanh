@@ -43,6 +43,21 @@ namespace DienLanh_BackEnd.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "FileDetail",
+                columns: table => new
+                {
+                    FileID = table.Column<string>(type: "varchar(15)", unicode: false, maxLength: 15, nullable: false),
+                    FileName = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    FileData = table.Column<byte[]>(type: "varbinary(max)", maxLength: 40000, nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", unicode: false, nullable: true),
+                    UpdatedDate = table.Column<DateTime>(type: "datetime2", unicode: false, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_FileDetail", x => x.FileID);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "ProductCategory",
                 columns: table => new
                 {
@@ -77,6 +92,7 @@ namespace DienLanh_BackEnd.Migrations
                 columns: table => new
                 {
                     ServiceID = table.Column<string>(type: "varchar(10)", unicode: false, maxLength: 10, nullable: false),
+                    Image = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     Title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", maxLength: 5000, nullable: true),
                     Price = table.Column<string>(type: "varchar(255)", unicode: false, maxLength: 255, nullable: true),
@@ -124,24 +140,24 @@ namespace DienLanh_BackEnd.Migrations
 
             migrationBuilder.InsertData(
                 table: "Service",
-                columns: new[] { "ServiceID", "BookingID", "CreatedDate", "Description", "Price", "ServiceCategoryBlogID", "Title", "UpdatedDate" },
+                columns: new[] { "ServiceID", "BookingID", "CreatedDate", "Description", "Image", "Price", "ServiceCategoryBlogID", "Title", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { "1637114746", null, new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(134), null, null, null, "Sửa chữa máy giặt", new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(134) },
-                    { "2523465109", null, new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(75), null, null, null, "Tháo, lắp máy giặt", new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(76) },
-                    { "3041819629", null, new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(118), null, null, null, "Vệ sinh máy giặt", new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(119) },
-                    { "3525947326", null, new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(61), null, null, null, "Tháo, lắp máy lạnh", new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(67) },
-                    { "3976360235", null, new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(140), null, null, null, "Sửa chữa tủ lạnh", new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(141) },
-                    { "4955322093", null, new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(98), null, null, null, "Tháo, lắp máy nước nóng", new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(99) },
-                    { "5018816391", null, new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(112), null, null, null, "Vệ sinh máy lạnh", new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(112) },
-                    { "6863705860", null, new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(105), null, null, null, "Tháo lắp vận chuyển tủ lạnh", new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(106) },
-                    { "7396033498", null, new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(128), null, null, null, "Sửa chữa máy lạnh", new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(129) }
+                    { "1937088546", null, new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6766), null, null, null, null, "Tháo, lắp máy nước nóng", new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6767) },
+                    { "2256876019", null, new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6672), null, null, null, null, "Tháo, lắp máy lạnh", new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6711) },
+                    { "3239775638", null, new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6834), null, null, null, null, "Vệ sinh máy lạnh", new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6835) },
+                    { "3589386588", null, new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6747), null, null, null, null, "Tháo, lắp máy giặt", new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6750) },
+                    { "6826524702", null, new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6821), null, null, null, null, "Tháo lắp vận chuyển tủ lạnh", new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6822) },
+                    { "7266490221", null, new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6861), null, null, null, null, "Sửa chữa máy lạnh", new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6862) },
+                    { "7578872125", null, new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6892), null, null, null, null, "Sửa chữa máy giặt", new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6893) },
+                    { "7772096437", null, new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6848), null, null, null, null, "Vệ sinh máy giặt", new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6849) },
+                    { "9637057639", null, new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6906), null, null, null, null, "Sửa chữa tủ lạnh", new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6907) }
                 });
 
             migrationBuilder.InsertData(
                 table: "UserInfo",
                 columns: new[] { "UserId", "CreatedDate", "DisplayName", "Email", "Password", "UserName" },
-                values: new object[] { "6907866626", new DateTime(2023, 7, 29, 13, 50, 6, 250, DateTimeKind.Local).AddTicks(5189), "Lê Văn Hiếu", "admin@gmail.com", "admin", "admin" });
+                values: new object[] { "9732800313", new DateTime(2023, 7, 31, 15, 7, 37, 379, DateTimeKind.Local).AddTicks(6367), "Lê Văn Hiếu", "admin@gmail.com", "admin", "admin" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Product_ProductCategoryID",
@@ -161,6 +177,9 @@ namespace DienLanh_BackEnd.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "FileDetail");
+
             migrationBuilder.DropTable(
                 name: "Product");
 

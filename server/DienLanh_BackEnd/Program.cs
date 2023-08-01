@@ -1,3 +1,5 @@
+using DienLanh_BackEnd.Business;
+using DienLanh_BackEnd.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -15,6 +17,7 @@ builder.Services.AddScoped<S_Blog, B_Blog>();
 builder.Services.AddScoped<S_Product, B_Product>();
 builder.Services.AddScoped<S_ProductCategory, B_ProductCategory>();
 builder.Services.AddScoped<S_Booking, B_Booking>();
+builder.Services.AddScoped<S_FileDetail, B_FileDetail>();
 // Add services to the container.
 
 builder.Services.AddControllers();

@@ -23,6 +23,8 @@ namespace WebAPI_JWT_NET6_Base.Models
         public virtual DbSet<Blog>? Blogs { get; set; }
         public virtual DbSet<Booking>? Bookings { get; set; }
 
+        public virtual DbSet<FileDetail> FileDetails { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -32,7 +34,7 @@ namespace WebAPI_JWT_NET6_Base.Models
             new ProductCategoryConfiguration().Configure(modelBuilder.Entity<ProductCategory>());
             new ServiceConfiguration().Configure(modelBuilder.Entity<Service>());
             new BlogConfiguration().Configure(modelBuilder.Entity<Blog>());
-
+            new FileDetailConfiguration().Configure(modelBuilder.Entity<FileDetail>());
 
             OnModelCreatingPartial(modelBuilder);
         }

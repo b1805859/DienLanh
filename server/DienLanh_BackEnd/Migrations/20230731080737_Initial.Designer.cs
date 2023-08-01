@@ -12,7 +12,7 @@ using WebAPI_JWT_NET6_Base.Models;
 namespace DienLanh_BackEnd.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230729065006_Initial")]
+    [Migration("20230731080737_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -105,6 +105,39 @@ namespace DienLanh_BackEnd.Migrations
                     b.ToTable("Booking", (string)null);
                 });
 
+            modelBuilder.Entity("DienLanh_BackEnd.Models.FileDetail", b =>
+                {
+                    b.Property<string>("FileID")
+                        .HasMaxLength(15)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(15)")
+                        .HasColumnName("FileID");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .IsUnicode(false)
+                        .HasColumnType("datetime2");
+
+                    b.Property<byte[]>("FileData")
+                        .IsRequired()
+                        .HasMaxLength(40000)
+                        .IsUnicode(true)
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .IsUnicode(false)
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("FileID");
+
+                    b.ToTable("FileDetail", (string)null);
+                });
+
             modelBuilder.Entity("DienLanh_BackEnd.Models.Product", b =>
                 {
                     b.Property<string>("ProductID")
@@ -194,6 +227,11 @@ namespace DienLanh_BackEnd.Migrations
                         .IsUnicode(true)
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Image")
+                        .HasMaxLength(255)
+                        .IsUnicode(true)
+                        .HasColumnType("nvarchar(255)");
+
                     b.Property<string>("Price")
                         .HasMaxLength(255)
                         .IsUnicode(false)
@@ -223,66 +261,66 @@ namespace DienLanh_BackEnd.Migrations
                     b.HasData(
                         new
                         {
-                            ServiceID = "3525947326",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(61),
+                            ServiceID = "2256876019",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6672),
                             Title = "Tháo, lắp máy lạnh",
-                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(67)
+                            UpdatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6711)
                         },
                         new
                         {
-                            ServiceID = "2523465109",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(75),
+                            ServiceID = "3589386588",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6747),
                             Title = "Tháo, lắp máy giặt",
-                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(76)
+                            UpdatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6750)
                         },
                         new
                         {
-                            ServiceID = "4955322093",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(98),
+                            ServiceID = "1937088546",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6766),
                             Title = "Tháo, lắp máy nước nóng",
-                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(99)
+                            UpdatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6767)
                         },
                         new
                         {
-                            ServiceID = "6863705860",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(105),
+                            ServiceID = "6826524702",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6821),
                             Title = "Tháo lắp vận chuyển tủ lạnh",
-                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(106)
+                            UpdatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6822)
                         },
                         new
                         {
-                            ServiceID = "5018816391",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(112),
+                            ServiceID = "3239775638",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6834),
                             Title = "Vệ sinh máy lạnh",
-                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(112)
+                            UpdatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6835)
                         },
                         new
                         {
-                            ServiceID = "3041819629",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(118),
+                            ServiceID = "7772096437",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6848),
                             Title = "Vệ sinh máy giặt",
-                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(119)
+                            UpdatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6849)
                         },
                         new
                         {
-                            ServiceID = "7396033498",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(128),
+                            ServiceID = "7266490221",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6861),
                             Title = "Sửa chữa máy lạnh",
-                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(129)
+                            UpdatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6862)
                         },
                         new
                         {
-                            ServiceID = "1637114746",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(134),
+                            ServiceID = "7578872125",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6892),
                             Title = "Sửa chữa máy giặt",
-                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(134)
+                            UpdatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6893)
                         },
                         new
                         {
-                            ServiceID = "3976360235",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(140),
+                            ServiceID = "9637057639",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6906),
                             Title = "Sửa chữa tủ lạnh",
-                            UpdatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 251, DateTimeKind.Local).AddTicks(141)
+                            UpdatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 380, DateTimeKind.Local).AddTicks(6907)
                         });
                 });
 
@@ -325,8 +363,8 @@ namespace DienLanh_BackEnd.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "6907866626",
-                            CreatedDate = new DateTime(2023, 7, 29, 13, 50, 6, 250, DateTimeKind.Local).AddTicks(5189),
+                            UserId = "9732800313",
+                            CreatedDate = new DateTime(2023, 7, 31, 15, 7, 37, 379, DateTimeKind.Local).AddTicks(6367),
                             DisplayName = "Lê Văn Hiếu",
                             Email = "admin@gmail.com",
                             Password = "admin",

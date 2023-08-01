@@ -136,3 +136,4 @@ D:\DienLanh\server\DienLanh_BackEnd\obj\Debug\net6.0\refint\DienLanh_BackEnd.dll
 D:\DienLanh\server\DienLanh_BackEnd\obj\Debug\net6.0\DienLanh_BackEnd.pdb
 D:\DienLanh\server\DienLanh_BackEnd\obj\Debug\net6.0\DienLanh_BackEnd.genruntimeconfig.cache
 D:\DienLanh\server\DienLanh_BackEnd\obj\Debug\net6.0\ref\DienLanh_BackEnd.dll
+D:\ScreenWebAdmin\DienLanh-main\server\DienLanh_BackEnd\bin\Debug\net6.0\DienLanh_BackEnd.staticwebassets.runtime.json

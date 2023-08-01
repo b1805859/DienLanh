@@ -20,7 +20,7 @@
         public const string ERR00009 = "ERR00009"; // Email không tồn tại
         public const string ERR00010 = "ERR00010"; // Update không thành công!
         public const string ERR00011 = "ERR00011"; // E-mail hoặc mật khẩu không hợp lệ!"
-	    public const string ERR00012 = "ERR00012"; // Insert không thành công!
+        public const string ERR00012 = "ERR00012"; // Insert không thành công!
         public const string ERR00013 = "ERR00013"; // Delete không thành công!
         // ==========================ERR CODE=====================
 
@@ -63,7 +63,7 @@
                 case ERR00011:
                     message = "E-mail hoặc mật khẩu không hợp lệ!";
                     break;
-		        case ERR00012:
+                case ERR00012:
                     message = "Insert không thành công!";
                     break;
                 case ERR00013:
@@ -81,6 +81,6 @@
             }
 
             return message;
-    }
+        }
     }
 }

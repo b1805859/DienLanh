@@ -10,6 +10,7 @@ namespace DienLanh_BackEnd.Models.Configuration
         {
             builder.ToTable("Service");
             builder.Property(e => e.ServiceID).HasMaxLength(10).IsUnicode(false).HasColumnName("ServiceID");
+            builder.Property(e => e.Image).HasMaxLength(255).IsUnicode(true);
             builder.Property(e => e.Title).HasMaxLength(255).IsUnicode(true).IsRequired();
             builder.Property(e => e.Description).HasMaxLength(5000).IsUnicode(true);
             builder.Property(e => e.Price).HasMaxLength(255).IsUnicode(false);
