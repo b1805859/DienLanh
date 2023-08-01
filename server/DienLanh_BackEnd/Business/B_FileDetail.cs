@@ -23,6 +23,8 @@ namespace DienLanh_BackEnd.Business
                 {
                     FileID = C_Function.randomFileID(),
                     FileName = fileData.FileName,
+                    UpdatedDate = DateTime.Now,
+                    CreatedDate = DateTime.Now,
                 };
 
                 while (_dbContext.FileDetails!.Any(FileDetailDB => FileDetailDB.FileID == fileDetails.FileID))
@@ -58,6 +60,8 @@ namespace DienLanh_BackEnd.Business
                     {
                         FileID = C_Function.randomFileID(),
                         FileName = file.FileName,
+                        UpdatedDate = DateTime.Now,
+                        CreatedDate = DateTime.Now,
                     };
 
 

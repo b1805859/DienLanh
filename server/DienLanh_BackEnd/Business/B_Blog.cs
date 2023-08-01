@@ -78,7 +78,7 @@ namespace WebAPI_JWT_NET6_Base.Business
         {
             try
             {
-                return _dbContext.Blogs!.ToList();
+                return _dbContext.Blogs!.OrderBy(x => x.Title).ToList();
             }
             catch
             {

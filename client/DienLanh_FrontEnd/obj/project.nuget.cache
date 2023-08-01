@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jGuWipLbJs9g92e5A6K6YOguuHoh4V1vDHI79jLIU5zgJizT405XkQe5ZLbMMP2QSxBuRDcuqGyNmHQm8Ugdnw==",
+  "dgSpecHash": "TK+lN5x24oq/VWjQR0rC8Dz5bRthYKauUUC2uuL3ML5tyvPYHw1InCbsunX9sXWwWUG7yGA4sonepKe2jlEXww==",
   "success": true,
-  "projectFilePath": "D:\\ScreenWebAdmin\\DienLanh-main\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
+  "projectFilePath": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IVS\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

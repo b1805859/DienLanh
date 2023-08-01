@@ -79,7 +79,7 @@ namespace WebAPI_JWT_NET6_Base.Business
         {
             try
             {
-                return _dbContext.Services!.ToList();
+                return _dbContext.Services!.OrderBy(x => x.Title).ToList();
             }
             catch
             {

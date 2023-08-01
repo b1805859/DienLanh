@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\img\\LEGO_logo.svg.png",
+      "Id": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\img\\LEGO_logo.svg.png",
       "PackagePath": "staticwebassets\\img\\LEGO_logo.svg.png"
     },
     {
-      "Id": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\img\\imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg",
+      "Id": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\img\\imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg",
       "PackagePath": "staticwebassets\\img\\imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg"
     },
     {
-      "Id": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\img\\unnamed.png",
+      "Id": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\img\\unnamed.png",
       "PackagePath": "staticwebassets\\img\\unnamed.png"
     },
     {

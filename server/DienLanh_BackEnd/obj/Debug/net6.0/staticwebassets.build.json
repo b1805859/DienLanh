@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MUAYM1+QksXNZYZEn6di/0T7kZcjBnk5zkrSO5htQjA=",
+  "Hash": "+QWVI+0CuzUemDfqoOhYDLsLZkztH8LWVGJFcEricEg=",
   "Source": "DienLanh_BackEnd",
   "BasePath": "_content/DienLanh_BackEnd",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DienLanh_BackEnd\\wwwroot",
       "Source": "DienLanh_BackEnd",
-      "ContentRoot": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\",
+      "ContentRoot": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_BackEnd",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\img\\imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg",
+      "Identity": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\img\\imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg",
       "SourceId": "DienLanh_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\",
+      "ContentRoot": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_BackEnd",
       "RelativePath": "img/imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\img\\imagen-logo-maker-2019-create-logos-and-design-free-0ori.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\img\\LEGO_logo.svg.png",
+      "Identity": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\img\\LEGO_logo.svg.png",
       "SourceId": "DienLanh_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\",
+      "ContentRoot": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_BackEnd",
       "RelativePath": "img/LEGO_logo.svg.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\img\\LEGO_logo.svg.png"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\img\\unnamed.png",
+      "Identity": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\img\\unnamed.png",
       "SourceId": "DienLanh_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\wwwroot\\",
+      "ContentRoot": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_BackEnd",
       "RelativePath": "img/unnamed.png",
       "AssetKind": "All",

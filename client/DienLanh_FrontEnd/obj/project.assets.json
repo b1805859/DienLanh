@@ -9610,11 +9610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ScreenWebAdmin\\DienLanh-main\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
+      "projectUniqueName": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
       "projectName": "DienLanh_FrontEnd",
-      "projectPath": "D:\\ScreenWebAdmin\\DienLanh-main\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
+      "projectPath": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
       "packagesPath": "C:\\Users\\IVS\\.nuget\\packages\\",
-      "outputPath": "D:\\ScreenWebAdmin\\DienLanh-main\\client\\DienLanh_FrontEnd\\obj\\",
+      "outputPath": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

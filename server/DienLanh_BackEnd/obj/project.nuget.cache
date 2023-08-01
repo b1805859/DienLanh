@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b82xT9qysr9vvva9QS85gyNNU7ouVNs/+h+vDMEf8AU8fKy45lEIM6ovgcvQZc0o69dvZQB2P5wVSNoKv4NR1Q==",
+  "dgSpecHash": "VWMR95uFqu8hL3rXwKtEE/AQtjl/t+BCzr4IjlxsRGc2b2mWZQ2oBcxZVRMHwDLMBV6NewWSsKr7WMSRB+i22A==",
   "success": true,
-  "projectFilePath": "D:\\ScreenWebAdmin\\DienLanh-main\\server\\DienLanh_BackEnd\\DienLanh_BackEnd.csproj",
+  "projectFilePath": "D:\\ScreenWebAdmin\\server\\DienLanh_BackEnd\\DienLanh_BackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IVS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\IVS\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.20\\microsoft.aspnetcore.authentication.jwtbearer.6.0.20.nupkg.sha512",
