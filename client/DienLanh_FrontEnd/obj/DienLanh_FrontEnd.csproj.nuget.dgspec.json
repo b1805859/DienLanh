@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj": {}
+    "D:\\DienLanh\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj": {}
   },
   "projects": {
-    "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj": {
+    "D:\\DienLanh\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
+        "projectUniqueName": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
         "projectName": "DienLanh_FrontEnd",
-        "projectPath": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
-        "packagesPath": "C:\\Users\\IVS\\.nuget\\packages\\",
-        "outputPath": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\obj\\",
+        "projectPath": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\DienLanh_FrontEnd.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IVS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

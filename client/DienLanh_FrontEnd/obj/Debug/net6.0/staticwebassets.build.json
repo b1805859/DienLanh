@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vl+ACvphOGcQqF7wjEiUJzQyFYfpaTbJSzrCdIw6nko=",
+  "Hash": "TRHX6uYBQ9bd0NIcba/kcBqdd3GMCqcHCITzb4YVhgc=",
   "Source": "DienLanh_FrontEnd",
   "BasePath": "_content/DienLanh_FrontEnd",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DienLanh_FrontEnd\\wwwroot",
       "Source": "DienLanh_FrontEnd",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DienLanh_FrontEnd.styles.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DienLanh_FrontEnd.styles.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "DienLanh_FrontEnd.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DienLanh_FrontEnd.styles.css"
+      "OriginalItemSpec": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DienLanh_FrontEnd.styles.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DienLanh_FrontEnd.bundle.scp.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DienLanh_FrontEnd.bundle.scp.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "DienLanh_FrontEnd.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DienLanh_FrontEnd.bundle.scp.css"
+      "OriginalItemSpec": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DienLanh_FrontEnd.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\css\\style.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\css\\style.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\about-1.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\about-1.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/about-1.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about-1.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\about-2.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\about-2.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/about-2.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about-2.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\bg.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\bg.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/bg.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bg.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\carousel-1.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\carousel-1.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/carousel-1.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carousel-1.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\carousel-2.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\carousel-2.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/carousel-2.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carousel-2.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\logo.png",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\logo.png",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\service-1.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\service-1.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/service-1.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\service-1.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\service-2.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\service-2.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/service-2.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\service-2.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\service-3.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\service-3.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/service-3.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\service-3.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\team-1.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\team-1.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/team-1.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-1.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\team-2.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\team-2.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/team-2.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-2.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\team-3.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\team-3.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/team-3.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-3.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\team-4.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\team-4.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/team-4.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team-4.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\testimonial-1.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\testimonial-1.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/testimonial-1.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-1.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\testimonial-2.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\testimonial-2.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/testimonial-2.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-2.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\testimonial-3.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\testimonial-3.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/testimonial-3.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-3.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\img\\testimonial-4.jpg",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\img\\testimonial-4.jpg",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "img/testimonial-4.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\testimonial-4.jpg"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\js\\HandlePage\\HomeHandle.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\HandlePage\\HomeHandle.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "js/HandlePage/HomeHandle.js",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\js\\HandlePage\\HomeHandle.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\js\\HandlePage\\ServiceHandle.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\HandlePage\\ServiceHandle.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "js/HandlePage/ServiceHandle.js",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\js\\HandlePage\\ServiceHandle.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\js\\main.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\js\\main.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\animate\\animate.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\animate\\animate.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/animate/animate.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\animate\\animate.min.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\animate\\animate.min.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/animate/animate.min.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\animate\\animate.min.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\counterup\\counterup.min.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/counterup/counterup.min.js",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\counterup\\counterup.min.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\easing\\easing.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\easing\\easing.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/easing/easing.js",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\easing\\easing.min.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\easing\\easing.min.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/easing/easing.min.js",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/assets/ajax-loader.gif",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/assets/owl.carousel.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/assets/owl.theme.green.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/assets/owl.video.play.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/LICENSE",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\LICENSE"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/owl.carousel.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/owlcarousel/owl.carousel.min.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/tempusdominus/css/tempusdominus-bootstrap-4.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/tempusdominus/js/moment.min.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/tempusdominus/js/moment-timezone.min.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/tempusdominus/js/tempusdominus-bootstrap-4.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\waypoints\\links.php",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\waypoints\\links.php",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/waypoints/links.php",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\links.php"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/waypoints/waypoints.min.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\wow\\wow.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\wow\\wow.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/wow/wow.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\wow\\wow.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\wow\\wow.min.js",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\lib\\wow\\wow.min.js",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "lib/wow/wow.min.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\wow\\wow.min.js"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap.scss",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_accordion.scss",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_alert.scss",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_badge.scss",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_button-group.scss",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_buttons.scss",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_card.scss",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_carousel.scss",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_close.scss",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_containers.scss",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_forms.scss",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_functions.scss",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_grid.scss",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_helpers.scss",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_images.scss",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_list-group.scss",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_mixins.scss",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_modal.scss",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_nav.scss",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_navbar.scss",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_offcanvas.scss",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_pagination.scss",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_popover.scss",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_progress.scss",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_reboot.scss",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_root.scss",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_spinners.scss",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_tables.scss",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_toasts.scss",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -1411,27 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
-      "BasePath": "_content/DienLanh_FrontEnd",
-      "RelativePath": "scss/bootstrap/scss/_transitions.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_transitions.scss"
-    },
-    {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
-      "SourceId": "DienLanh_FrontEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_type.scss",
       "AssetKind": "All",
@@ -1445,10 +1428,27 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_FrontEnd",
+      "RelativePath": "scss/bootstrap/scss/_transitions.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "SourceId": "DienLanh_FrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_utilities.scss",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/_variables.scss",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/bootstrap.scss",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/bootstrap-utilities.scss",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/forms/_floating-labels.scss",
       "AssetKind": "All",
@@ -1564,27 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
-      "BasePath": "_content/DienLanh_FrontEnd",
-      "RelativePath": "scss/bootstrap/scss/forms/_form-check.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
-    },
-    {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
-      "SourceId": "DienLanh_FrontEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/forms/_form-control.scss",
       "AssetKind": "All",
@@ -1598,10 +1581,27 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "BasePath": "_content/DienLanh_FrontEnd",
+      "RelativePath": "scss/bootstrap/scss/forms/_form-check.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "SourceId": "DienLanh_FrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/forms/_form-range.scss",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/forms/_form-select.scss",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/forms/_form-text.scss",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/forms/_input-group.scss",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/forms/_labels.scss",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/forms/_validation.scss",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/helpers/_clearfix.scss",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/helpers/_colored-links.scss",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/helpers/_position.scss",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/helpers/_ratio.scss",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/helpers/_stretched-link.scss",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/helpers/_text-truncation.scss",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/helpers/_visually-hidden.scss",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_color-scheme.scss",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_container.scss",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_table-variants.scss",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_utilities.scss",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/mixins/_visually-hidden.scss",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/utilities/_api.scss",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Identity": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Identity": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "SourceId": "DienLanh_FrontEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ScreenWebAdmin\\client\\DienLanh_FrontEnd\\wwwroot\\",
+      "ContentRoot": "D:\\DienLanh\\client\\DienLanh_FrontEnd\\wwwroot\\",
       "BasePath": "_content/DienLanh_FrontEnd",
       "RelativePath": "scss/bootstrap/scss/vendor/_rfs.scss",
       "AssetKind": "All",
